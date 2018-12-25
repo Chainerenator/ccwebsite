@@ -1,0 +1,15 @@
+version: '2'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    volumes:
+      - db_data:/var/lib/mysql
+      environment:
+        MYSQL_ROOT_PASSWORD: 12801946
+        networks:
+          - back
+          networks:
+            back:
+              volumes:
+                db_data:
