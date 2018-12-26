@@ -636,7 +636,7 @@ input, select, textarea {
 			opacity: 0.5;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: auto;
 		}
 
 		.image img {
@@ -667,11 +667,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2rem 0;
-			width: 100%;
+			width: auto;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: auto;
 			}
 
 		.image.main {
