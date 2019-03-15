@@ -1,1 +1,0 @@
-Chainer Corp - based on html5 
