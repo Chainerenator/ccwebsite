@@ -3,16 +3,13 @@
  <head>    
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.
-css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin
-="anonymous">
-  <title>Simple Web Page</title>
-  <style>
-    h1 {
-      margin: 2em 0;
-    }
-  </style>
-  <!-- widget stuff here -->
+  <meta name="keywords" content="ChainerCorp, Chainer, DevOps, CH, Chainer Inc." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--Chatbro-->
+		<script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','//www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}/* Chatbro Widget Embed Code End */ChatbroLoader({encodedChatId: '3vXC'});</script>
+  <title>Secret Page</title>
+    <!-- widget stuff here -->
   <script src="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.6.0/js/okta-sign-in.
 min.js" type="text/javascript"></script>
   <link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.6.0/css/okta-sign-in.
@@ -22,14 +19,15 @@ s" type="text/css" rel="stylesheet"/>
 </head>
   <body>
     <div class="container">
-      <h1 class="text-center">Simple Web Page</h1>
+      <h1 class="text-center">Secret Page</h1>
       <div id="messageBox" class="jumbotron">
-        You are not logged in. Get outta here! Shoo! >:S
+        Acess Denied!
       </div>
       <!-- where the sign-in form will be displayed -->
       <div id="sign-in-container"></div>
     </div>
     <!-- use the Okta widget to power authentication! -->
+    <div id="bg"></div>
 <script type="text/javascript">
   var oktaSignIn = new OktaSignIn({
     baseUrl: "https://dev-181203.okta.com",
@@ -77,5 +75,14 @@ s" type="text/css" rel="stylesheet"/>
     });
   }
 </script>
+<!-- BG -->
+			
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
   </body>
 </html>
